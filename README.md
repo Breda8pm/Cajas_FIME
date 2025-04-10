@@ -1,1 +1,9 @@
-Menu de cajas FIME: Debe crear un pseudocodigo en Pseint y su respectivo codigo en lenguaje C, en el cual le preguntara al usuario por su nombre, para posteriormente mostrarle el menu con 4 opciones: Agregar turno visualizar turno, eliminar turno y por ultimo salir del programa. Al momento de querer visualizar o eliminar turnos sera con arreglos y usara pilas para que el ultimo turno que agregue sea el primero en eliminarse. El horario disponible es de 8: 30 am a 19:00 pm, por lo que el usuario debe ingresar un numero que represente la hora (use un sistema de 24 hrs para evitar usar los terminos "am" o "pm") Procure que al momento de ingresar la hora si fuera del tiempo valido le comente que no es apto ese horario pero si desea escoger algun otro horario. Al escoger un numero correcto entre el 8 a 19 se le debera pedir que ingrese del 1 al 4 alguno de estos numeros, que significa el intervalo de 15 minutos que escogera de la hora, por ejemplo, si escoge primeramente el numero 10 y el 1, su turno es de 10:00 a 10:15. 
+This program implements a box office scheduling system for FIME (Faculty of Mechanical and Electrical Engineering) using stack data structures in C. The system allows users to:
+
+Add new appointments
+
+View existing appointments
+
+Delete the most recent appointment
+
+Exit the program
